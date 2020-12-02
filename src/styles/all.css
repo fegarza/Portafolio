@@ -1,0 +1,45 @@
+:root{
+    --primaryColor: #0d7377;
+    --secondaryColor:#32e0c4;
+    --bgColor: #eeeeee;
+    --txtColor:#212121;
+    --maxWidth:1200px;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedor{
+    width: var(--maxWidth); 
+    height: 100%;
+    background: #00000045;
+}
+header{
+    height: calc(100% - 80px);
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background:var(--primaryColor);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+header .contenedor{
+     position: relative
+}
+header img{
+    width: 180px;
+    height:180px;
+    border-radius:50%;
+
+}
+section{
+    background: var(--bgColor);
+    color: var(--txtColor);
+}
